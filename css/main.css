@@ -17,3 +17,13 @@ body {
 }
 
 /* *************** BASE STYLES *************** */
+
+/* *************** INSTAGRAM WRAPPER *************** */
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
