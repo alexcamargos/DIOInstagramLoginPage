@@ -101,3 +101,39 @@ body {
 .link-blue {
     color: #0095f6;
 }
+
+/* *************** INSTAGRAM DOWNLOAD *************** */
+.instagram-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.instagram-download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('../img/badge_ios.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('../img/badge_android.png');
+}
+
+.app-download:nth-child(3) {
+    background-image: url('../img/badge_windows.png');
+}
