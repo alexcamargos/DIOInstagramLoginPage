@@ -27,3 +27,11 @@ body {
     width: 60%;
     height: 100vh;
 }
+
+/* *************** INSTAGRAM PHONE *************** */
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
