@@ -59,7 +59,7 @@ body {
 }
 
 .instagram-group:nth-child(1) {
-    min-width: 3rem;
+    min-width: 19rem;
 }
 
 /* *************** INSTAGRAM LOGO *************** */
@@ -78,4 +78,17 @@ body {
 
 .profile-photo img {
     width: 6rem;
+}
+
+/* *************** INSTAGRAM LOGIN/LOGOUT *************** */
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
 }
