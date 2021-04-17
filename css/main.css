@@ -92,3 +92,12 @@ body {
     color: #0095f6;
     margin-top: 1rem;
 }
+
+/* *************** NOT-ACCOUNT / LINK-BLUE *************** */
+.not-account {
+    color: rgb(160, 160, 160);
+}
+
+.link-blue {
+    color: #0095f6;
+}
