@@ -66,3 +66,16 @@ body {
 .instagram-logo {
     height: 3rem;
 }
+
+/* *************** PROFILE PHOTO *************** */
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    width: 6rem;
+}
