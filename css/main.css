@@ -61,3 +61,8 @@ body {
 .instagram-group:nth-child(1) {
     min-width: 3rem;
 }
+
+/* *************** INSTAGRAM LOGO *************** */
+.instagram-logo {
+    height: 3rem;
+}
