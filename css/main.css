@@ -1,3 +1,21 @@
+/*
+# -------------------------------------------------------------------------------------------------
+#
+# Name: main.css
+# Version: 1.0.0
+#
+# Summary: Recriando a página inicial do Instagram usando Flex Container.
+#          O Flex Container é a tag que envolve os itens flex, ao indicar display: flex, 
+#          essa tag passa a ser um Flex Container.
+#
+# Author: Alexsander Lopes Camargos
+# Author-email: alcamargos@vivaldi.net
+#
+# License: MIT
+#
+# -------------------------------------------------------------------------------------------------
+*/
+
 /* *************** BASE STYLES *************** */
 * {
     margin: 0;
@@ -16,10 +34,47 @@ body {
     justify-content: center;
 }
 
-/* *************** BASE STYLES *************** */
 
-/* *************** INSTAGRAM WRAPPER *************** */
+/* Styling for this page is organized from top to bottom of what is shown on the page. */
 
+
+/* *************** GET APP ON WINDOWS STORE *************** */
+.instagram-windows-store {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, mediumvioletred, indianred);
+}
+
+.instagram-windows-store nav {
+    overflow: auto;
+    color: white;
+}
+
+.instagram-nav-top {
+    float: left;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 600
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.instagram-nav-get-btn {
+    float: right;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+
+/* *************** INSTAGRAM MAIN WRAPPER *************** */
 .instagram-wrapper {
     display: flex;
     flex-direction: column;
@@ -27,7 +82,7 @@ body {
     justify-content: space-between;
     width: 60%;
     height: 100vh;
-
+    padding-top: 50px;
 }
 
 .instagram-container {
@@ -112,8 +167,6 @@ body {
     color: #0095f6;
 }
 
-/* Styling for this page is organized from top to bottom of what is shown on the page. */
-
 /* *************** INSTAGRAM DOWNLOAD *************** */
 .instagram-get-app {
     display: flex;
@@ -149,6 +202,7 @@ body {
 .app-download:nth-child(3) {
     background-image: url('../img/badge_windows.png');
 }
+
 
 /* *************** INSTAGRAM FOOTER *************** */
 footer {
@@ -194,6 +248,10 @@ footer .instagram-container {
     .instagram-wrapper {
         width: 90%;
     }
+
+    .instagram-windows-store {
+        width: 100%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -207,6 +265,10 @@ footer .instagram-container {
 
     .instagram-wrapper {
         width: 90%;
+    }
+
+    .instagram-windows-store {
+        display: none;
     }
 
     .instagram-phone {
