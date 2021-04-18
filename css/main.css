@@ -22,10 +22,20 @@ body {
 
 .instagram-wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     width: 60%;
     height: 100vh;
+
+}
+
+.instagram-container {
+    display: flex;
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
+
 }
 
 /* *************** INSTAGRAM PHONE *************** */
@@ -102,6 +112,8 @@ body {
     color: #0095f6;
 }
 
+/* Styling for this page is organized from top to bottom of what is shown on the page. */
+
 /* *************** INSTAGRAM DOWNLOAD *************** */
 .instagram-get-app {
     display: flex;
@@ -138,6 +150,44 @@ body {
     background-image: url('../img/badge_windows.png');
 }
 
+/* *************** INSTAGRAM FOOTER *************** */
+footer {
+    display: flex;
+    padding: 15px 0;
+    color: #999999;
+}
+
+footer .instagram-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 52px;
+    font-size: 8px;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 3px;
+}
+
+.footer-nav ul li {
+    margin-right: 1.6rem;
+    padding: 5px;
+    margin: -2px 0 -3px;
+}
+
+.footer-nav ul li:first-letter {
+    text-transform: capitalize;
+}
+
+.footer-nav ul li a {
+    color: #8e8e8e;
+    font-weight: 300;
+}
+
 
 /* *************** MEDIA QUERIES *************** */
 @media (max-width: 1024px) {
@@ -159,11 +209,11 @@ body {
         width: 90%;
     }
 
-   .instagram-phone {
-       display: none;
-   }
+    .instagram-phone {
+        display: none;
+    }
 
-   .instagram-continue {
-       width: 100%;
-   }
+    .instagram-continue {
+        width: 100%;
+    }
 }
