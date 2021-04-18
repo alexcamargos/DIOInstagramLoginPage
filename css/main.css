@@ -169,6 +169,7 @@ h5 {
 /* *************** NOT-ACCOUNT / LINK-BLUE *************** */
 .not-account {
     color: rgb(160, 160, 160);
+    margin: 5px;
 }
 
 .link-blue {
