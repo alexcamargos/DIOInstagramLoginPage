@@ -100,7 +100,6 @@ h5 {
     margin: 3rem auto 0;
 
 }
-
 /* *************** INSTAGRAM PHONE *************** */
 .instagram-phone {
     display: flex;
@@ -108,6 +107,64 @@ h5 {
     justify-content: center;
     width: 50%;
 }
+
+/* *************** INSTAGRAM PHONE SLIDESHOW *************** */
+
+.instagram-phone-slideshow-container {
+    display: block;
+    max-width: 427px;
+    max-height: 240px;
+    position: absolute;
+    z-index: 10;
+}
+
+.instagram-phone-slideshow-wrapper {
+    position: absolute;
+    margin-left: -76px;
+    margin-top: -211px;
+    animation: round 30s infinite;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.instagram-phone-slideshow-wrapper img {
+    height: auto;
+    width: auto;
+}
+
+
+@keyframes round {
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+}
+
+
+.instagram-phone-slideshow-wrapper:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.instagram-phone-slideshow-wrapper:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.instagram-phone-slideshow-wrapper:nth-child(3) {
+    animation-delay: 8s;
+}
+
+.instagram-phone-slideshow-wrapper:nth-child(4) {
+    animation-delay: 12s;
+}
+
+.instagram-phone-slideshow-wrapper:nth-child(5) {
+    animation-delay: 16s;
+}
+
 
 /* *************** INSTAGRAM CONTINUE *************** */
 .instagram-continue {
